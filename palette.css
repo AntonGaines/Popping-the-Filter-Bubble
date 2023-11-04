@@ -1,0 +1,152 @@
+html{
+	background-color: #3D5467;
+}
+
+h1{
+	text-align: center;
+	font-size: 60px;
+	font-family: Courier, regular;
+	color: #F1EDEE;
+}
+
+h2{
+	text-align: left;
+	font-size: 40px;
+	font-family: Courier, regular;
+	color: #BBC9C6;
+}
+
+h4{
+	text-align:center;
+}
+
+#rectangle {
+	margin: auto;
+  width: 90%;
+  height: 5px;
+  background: #DB5461;
+}
+
+#rectangle_small {
+    border: none;
+    border-top: 5px dotted #DB5461;
+    margin-top:15px;
+  }
+
+#infoDump{
+	margin-left: 5%;
+	margin-right:5%;
+}
+
+#buttonHolder{
+	margin:auto;
+	width:100%;
+	text-align:center;
+}
+
+a.navBox{
+	text-decoration: none;
+	color:rgb(255,255,255);
+	font-family: Courier, regular;
+
+  	border-radius: 25px;
+  	border: 2px solid #17223B;
+  	color: white;
+  	background-color: #DB5461;
+  	width:20%;
+  	padding-top:10px;
+  	padding-bottom:10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 20px;
+  	margin-top: 30px;
+  	margin-bottom: 30px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+
+.navBox:hover{
+	background-color: #BBC9C6;
+  	color: #686963;
+  	border-color:#DB5461;
+}
+
+a.profBox{
+	text-decoration: none;
+	color:rgb(255,255,255);
+	font-family: Courier, regular;
+
+  	border-radius: 25px;
+  	border: 2px solid #17223B;
+  	color: white;
+  	background-color: #DB5461;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 20px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+
+  	float:left;
+	width: 20%;
+	margin-left: 15%;
+	margin-right: 14.5%;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+
+.profBox:hover{
+	background-color: #BBC9C6;
+  	color: #686963;
+  	border-color:#DB5461;
+}
+
+p{
+	text-align:left;
+	font-size: 30px;
+	font-family:helvetica;
+	color: #F1EDEE;
+}
+
+.small{
+	float:left;
+	width: 20%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 5%;
+	padding-bottom:5%;
+	color:white;
+	text-align:center;
+}
+
+.large{
+	float:left;
+	width: 49%;
+	padding-left: .1%;
+	padding-right: .1%;
+	/*padding-top: 2%;*/
+	padding-bottom:2%;
+	color:white;
+}
+
+h3{
+	text-align:center;
+	color: #BBC9C6;
+	font-family: coshin;
+	font-size:40px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.red{
+	color: #DB5461;
+}
+
+.yellow{ 
+	color:yellow;
+ }
+
+ .yellow:visited{
+ 	color:orange;
+ }
